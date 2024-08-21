@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header, section, footer {
+  padding: 0 100px;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  z-index: 990;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header::after{
+  content: '';
+  position: absolute;
+  z-index: 990;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scaleY(0);
+  transition: 0.25s ease-in-out;
+  transform-origin: top;
+  backdrop-filter: blur(20px);
+}
+
+header:hover::after {
+  transform: scaleY(1);
+}
+
+header a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 991;
+}
+
+
+.menu {
+  position: relative;
+  z-index: 991;
+  top: 0;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu>li {
+  position: relative;
+  z-index: 991;
+  top: 0;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu>li>a {
+  height: 100px;
+  position: relative;
+  z-index: 991;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.sub_menu {
+  position: absolute;
+  top: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: scaleY(0);
+  transition: 0.25s ease-in-out;
+  transform-origin: top;
+}
+
+header:hover .sub_menu {
+  transform: scaleY(1);
+}
+
+
+
+.side {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 991;
+}
+
+.body_wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.section_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: blueviolet;
+}
