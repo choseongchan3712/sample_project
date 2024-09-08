@@ -73,6 +73,7 @@ const game = () => {
         words.push(inputWord);
       } else {
         alert("단어를 잘못 입력하셨습니다. 게임이 끝났습니다")
+        word.textContent = "";
       }
     }
     input.value = ""; //input창 초기화
