@@ -23,6 +23,7 @@ input, button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: right;
 }
 
 input {
@@ -33,6 +34,9 @@ input {
   border: 1px solid black;
   font-size: 30px;
   font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
 .row {
