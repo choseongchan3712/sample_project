@@ -22,27 +22,6 @@ const objectNum = {
   result: undefined,
 };
 
-// const resetNum = () => {
-//   objectNum.numOne = objectNum.result;
-//   objectNum.numTwo = undefined;
-// };
-
-// const doCalculate = () => {
-//   if (objectNum.symbol === "+") {
-//     calculateResult.value = Number(objectNum.numOne) + Number(objectNum.numTwo);
-//     objectNum.result = calculateResult.value;
-//   } else if (objectNum.symbol === "-") {
-//     calculateResult.value = Number(objectNum.numOne) - Number(objectNum.numTwo);
-//     objectNum.result = calculateResult.value;
-//   } else if (objectNum.symbol === "*") {
-//     calculateResult.value = Number(objectNum.numOne) * Number(objectNum.numTwo);
-//     objectNum.result = calculateResult.value;
-//   } else if (objectNum.symbol === "/") {
-//     calculateResult.value = Number(objectNum.numOne) / Number(objectNum.numTwo);
-//     objectNum.result = calculateResult.value;
-//   }
-// };
-
 num0.addEventListener("click", () => {
   if (objectNum.numOne === undefined) {
     objectNum.symbol = undefined;
