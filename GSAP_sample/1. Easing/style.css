@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 50vh;
+  margin: 0;
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(253, 187, 180);
+  margin-bottom: 20px;
+}
+
+.bounce_in {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bounce_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bounce_in_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.power1_in {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(0, 231, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.power1_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(0, 231, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.power1_in_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(0, 231, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.elastic_in {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(166, 111, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elastic_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(166, 111, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elastic_in_out {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(166, 111, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.steps {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(239, 243, 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
